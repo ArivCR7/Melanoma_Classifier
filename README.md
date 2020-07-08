@@ -7,11 +7,12 @@ Currently, dermatologists evaluate every one of a patient's moles to identify ou
 
 Melanoma is a deadly disease, but if caught early, most melanomas can be cured with minor surgery. Image analysis tools that automate the diagnosis of melanoma will improve dermatologists' diagnostic accuracy. Better detection of melanoma has the opportunity to positively impact millions of people.
 
+# Normal Skin Lesion
 <img src="static/competitions_20270_1222630_jpeg_test_ISIC_0052349.jpg" alt="Normal Skin lesion" width=200 height=200/>            
-Normal Skin Lesion                                                                                                      
 
+# Melanoma Skin Lesion                                                                                                      
 <img src="static/c5.jpg" alt="Melanoma" width=200 height=200/>
-Melanoma Skin Lesion
+
 
 # About Data and Code
 
