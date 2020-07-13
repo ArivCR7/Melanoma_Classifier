@@ -34,5 +34,5 @@ Since it's a highly imbalanced dataset, accuracy alone will not give a good pict
 
 I've created an API for this model, where we can pass an image of our skin lesion and check the probability of melanoma on that lesion. 
 
-<img src="static/2020-07-13-08-38-05.gif" alt="Melanoma" width=300 height=300/>
+<img src="static/2020-07-13-08-38-05.gif" alt="Melanoma" width=500 height=300/>
 
