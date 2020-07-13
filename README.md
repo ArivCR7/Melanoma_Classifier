@@ -28,8 +28,11 @@ The CNN architecture used here is SEResNext50_32x4d after some random trials wit
 Data is split into 5 different folds and the model got trained on all the folds individually and saved. 
 Learning Rate scheduler is used to decay the learning rate after definite set of epochs.
 Early Stopping is enabled to avoid overfitting the model.
-Since it's a highly imbalanced dataset, accuracy alone will not give a good picture of the model. The metric used here is AUROC which takes values between 0-1. The closer the value of AUROC to 1, the better will be the model.
+Since it's a highly imbalanced dataset, accuracy alone will not give a good picture of the model. The metric used here is AUROC which takes values between 0-1. The closer the value of AUROC to 1, the better will be the model. The AUROC of our model is 0.89.
 
 # Exposed model as a service
 
-I've created an API for this model, where we can pass an image of our skin lesion and check the probability of melanoma on that lesion.   
+I've created an API for this model, where we can pass an image of our skin lesion and check the probability of melanoma on that lesion. 
+
+<img src="static/2020-07-13-08-38-05.gif" alt="Melanoma" width=300 height=300/>
+
