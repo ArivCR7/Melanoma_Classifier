@@ -23,9 +23,12 @@ Since the data is huge in size(100GB), I used the kaggle in-house dataset which 
 
 The CNN architecture used here is SEResNext50_32x4d after some random trials with resnet18 and resnet50. More about this architecture on https://arxiv.org/pdf/1709.01507.pdf
 
-# Training Process
+# Training - Evaluation
 
-Data is split into 5 different folds and the model got trained on all the folds individually and saved. Learning Rate scheduler is used to decay the learning rate after definite set of epochs and Early Stopping is enabled to avoid overfitting the model.
+Data is split into 5 different folds and the model got trained on all the folds individually and saved. 
+Learning Rate scheduler is used to decay the learning rate after definite set of epochs.
+Early Stopping is enabled to avoid overfitting the model.
+Since it's a highly imbalanced dataset, accuracy alone will not give a good picture of the model. The metric used here is AUROC which takes values between 0-1. The closer the value of AUROC to 1, the better will be the model.
 
 # Exposed model as a service
 
